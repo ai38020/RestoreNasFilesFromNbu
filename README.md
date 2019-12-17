@@ -1,0 +1,5 @@
+# RestoreNasFilesFromNbu
+通过NBU命令从NBU还原MySQL backup的文件，并还原为实例
+背景：
+MySQL数据库通过mysqlbackup命令将数据备份到Nas卷上，NBU对NAS卷进行备份，备份好的数据需要每季度进行还原，因此开发此脚本进行还原。
+可以还原单个数据库或者一次性还原nas卷上所有数据库，并发送邮件告知还原状态。
